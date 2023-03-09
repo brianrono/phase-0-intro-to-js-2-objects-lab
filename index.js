@@ -5,7 +5,7 @@ const employee = {
 };
 
 function updateEmployeeWithKeyAndValue(employee, key, value) {
-    let employees = {...employee};
+    const employees = {...employee};
     employees[key] = value;
     return employees;
 };
